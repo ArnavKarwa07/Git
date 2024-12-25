@@ -54,3 +54,15 @@ Method 2:
 create pull request
 
 git pull origin main
+
+Undoing changes:
+Case1: staged changes
+       git reset <file name>
+       git reset (across all files)
+
+Case2: accidental commits
+       git reset head~1 (reset by 1 commt)
+
+Case3: multiple commits
+       git reset <commit hash> (go to particular commit using its hash value - obtained using git log)
+       git reset --hard <commit hash> (to changes the code aswell)
