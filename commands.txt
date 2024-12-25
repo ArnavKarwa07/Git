@@ -32,3 +32,14 @@ git remote -v (to verify remote)
 git branch (to check branch)
 
 git branch -m <name> (to rename the branch)
+
+Branches:
+git branch (to check branch)
+
+git branch -m <name> (to rename the branch)
+
+git checkout <branch name> (to navigate)
+
+git checkout -b <new branch name> (to create new branch)
+
+git branch -d <branch name> (to delete a branch)
