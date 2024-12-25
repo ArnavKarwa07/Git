@@ -19,6 +19,7 @@ add: git add <file_name> | git add . (TO ADD ALL THE FILES)
 commit: git commit -m "message" (to commit the changes to local repository)
 
 push: git push origin <branch> (upload changes to remote repository ie github)
+      git push -u origin <branch> (to tell that all further push commands will be done on the same branch so next time you only need to run: git push) 
 
 mkdir - make directory
 
