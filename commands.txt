@@ -20,6 +20,14 @@ commit: git commit -m "message" (to commit the changes to local repository)
 
 push: git push origin <branch> (upload changes to remote repository ie github)
 
+mkdir - make directory
+
 init - used to initialize a new git repository
 
-mkdir - make directory 
+git remote add origin <link> (upload changes to remote repository)
+
+git remote -v (to verify remote)
+
+git branch (to check branch)
+
+git branch -m <name> (to rename the branch)
