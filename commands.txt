@@ -42,4 +42,4 @@ git checkout <branch name> (to navigate)
 
 git checkout -b <new branch name> (to create new branch)
 
-git branch -d <branch name> (to delete a branch)
+git branch -d <branch name> (to delete a branch) //you cannot delete the branch you are in
