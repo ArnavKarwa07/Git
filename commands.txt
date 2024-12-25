@@ -1,0 +1,25 @@
+Configure:
+git config --global user.name "username" 
+git config --global user.email "email"
+git config --list
+
+Clone: git clone <link>
+
+Status: git status
+
+ls - to list all the files
+
+Files: untracked - new files that git does not track yet
+       modified
+       unmodified
+       staged - ready to be committed
+
+add: git add <file_name> | git add . (TO ADD ALL THE FILES)
+
+commit: git commit -m "message" (to commit the changes to local repository)
+
+push: git push origin <branch> (upload changes to remote repository ie github)
+
+init - used to initialize a new git repository
+
+mkdir - make directory 
